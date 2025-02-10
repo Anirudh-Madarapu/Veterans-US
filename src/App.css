@@ -1,0 +1,30 @@
+/* src/App.css */
+.App {
+  padding: 20px;
+}
+
+input {
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 300px;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.veterans-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.veteran-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
